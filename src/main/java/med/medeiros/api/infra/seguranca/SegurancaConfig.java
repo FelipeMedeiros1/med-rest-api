@@ -40,13 +40,10 @@ public class SegurancaConfig {
                 .addFilterBefore(filtroSeguranca, UsernamePasswordAuthenticationFilter.class)
                 .build();
     }
-
-
     @Bean
     public AuthenticationManager gerenciador(AuthenticationConfiguration ac) throws Exception {
         return ac.getAuthenticationManager();
     }
-
     @Bean
     public PasswordEncoder senhaCrypt() {
         return new BCryptPasswordEncoder();

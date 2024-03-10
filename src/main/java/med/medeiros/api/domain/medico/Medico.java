@@ -6,7 +6,7 @@ import med.medeiros.api.domain.endereco.Endereco;
 
 @Table(name = "medicos")
 @Entity(name = "Medico")
-@Getter
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(of = "id")
