@@ -1,4 +1,7 @@
-package med.medeiros.api.domain.medico;
+package med.medeiros.api.domain.medico.dto;
+
+import med.medeiros.api.domain.medico.Especialidade;
+import med.medeiros.api.domain.medico.Medico;
 
 public record DadosListagemMedico(
         Long id,

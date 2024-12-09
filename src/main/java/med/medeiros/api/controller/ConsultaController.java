@@ -4,7 +4,7 @@ import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
 import med.medeiros.api.domain.consulta.ConsultaAgendamentoService;
-import med.medeiros.api.domain.consulta.DadosAgendamento;
+import med.medeiros.api.domain.consulta.dto.DadosAgendamento;
 import med.medeiros.api.domain.consulta.validacoes.DadosCancelamentoConsulta;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

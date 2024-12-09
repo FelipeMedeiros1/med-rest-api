@@ -1,4 +1,4 @@
-package med.medeiros.api.domain.usuario;
+package med.medeiros.api.usuario;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;

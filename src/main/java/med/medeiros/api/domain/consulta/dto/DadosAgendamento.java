@@ -1,4 +1,4 @@
-package med.medeiros.api.domain.consulta;
+package med.medeiros.api.domain.consulta.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.validation.constraints.Future;

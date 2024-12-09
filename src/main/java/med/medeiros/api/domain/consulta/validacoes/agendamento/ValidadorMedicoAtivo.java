@@ -1,6 +1,6 @@
 package med.medeiros.api.domain.consulta.validacoes.agendamento;
 
-import med.medeiros.api.domain.consulta.DadosAgendamento;
+import med.medeiros.api.domain.consulta.dto.DadosAgendamento;
 import med.medeiros.api.domain.ecessao.ValidacaoExcecao;
 import med.medeiros.api.domain.medico.MedicoRepository;
 import org.springframework.beans.factory.annotation.Autowired;

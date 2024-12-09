@@ -1,4 +1,6 @@
-package med.medeiros.api.domain.paciente;
+package med.medeiros.api.domain.paciente.dto;
+
+import med.medeiros.api.domain.paciente.Paciente;
 
 public record DadosListagemPaciente(
        Long id,

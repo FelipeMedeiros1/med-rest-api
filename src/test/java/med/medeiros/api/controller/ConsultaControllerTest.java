@@ -2,10 +2,10 @@ package med.medeiros.api.controller;
 
 
 import med.medeiros.api.domain.consulta.ConsultaAgendamentoService;
-import med.medeiros.api.domain.consulta.DadosAgendamento;
-import med.medeiros.api.domain.consulta.DadosDetalheConsulta;
+import med.medeiros.api.domain.consulta.dto.DadosAgendamento;
+import med.medeiros.api.domain.consulta.dto.DadosDetalheConsulta;
 import med.medeiros.api.domain.endereco.DadosEndereco;
-import med.medeiros.api.domain.medico.DadosCadastroMedico;
+import med.medeiros.api.domain.medico.dto.DadosCadastroMedico;
 import med.medeiros.api.domain.medico.Especialidade;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;

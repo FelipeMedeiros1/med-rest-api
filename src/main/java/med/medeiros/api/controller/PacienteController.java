@@ -1,12 +1,13 @@
 package med.medeiros.api.controller;
 
-import io.swagger.annotations.SecurityDefinition;
-import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import jakarta.transaction.Transactional;
 import jakarta.validation.Valid;
 import med.medeiros.api.domain.paciente.*;
-import med.medeiros.api.domain.paciente.*;
+import med.medeiros.api.domain.paciente.dto.DadosAtualizacaoPaciente;
+import med.medeiros.api.domain.paciente.dto.DadosCadastroPaciente;
+import med.medeiros.api.domain.paciente.dto.DadosDetalhePaciente;
+import med.medeiros.api.domain.paciente.dto.DadosListagemPaciente;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

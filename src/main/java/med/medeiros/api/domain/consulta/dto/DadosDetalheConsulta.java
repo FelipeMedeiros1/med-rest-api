@@ -1,4 +1,6 @@
-package med.medeiros.api.domain.consulta;
+package med.medeiros.api.domain.consulta.dto;
+
+import med.medeiros.api.domain.consulta.Consulta;
 
 import java.time.LocalDateTime;
 

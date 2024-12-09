@@ -1,4 +1,4 @@
-package med.medeiros.api.domain.usuario;
+package med.medeiros.api.usuario;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

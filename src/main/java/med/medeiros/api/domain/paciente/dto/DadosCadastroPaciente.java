@@ -1,4 +1,4 @@
-package med.medeiros.api.domain.paciente;
+package med.medeiros.api.domain.paciente.dto;
 
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Email;

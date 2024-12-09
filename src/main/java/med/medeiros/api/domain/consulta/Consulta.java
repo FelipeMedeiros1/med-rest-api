@@ -5,15 +5,10 @@ import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import med.medeiros.api.domain.endereco.Endereco;
-import med.medeiros.api.domain.medico.DadosAtualizacaoMedico;
-import med.medeiros.api.domain.medico.DadosCadastroMedico;
-import med.medeiros.api.domain.medico.Especialidade;
 import med.medeiros.api.domain.medico.Medico;
 import med.medeiros.api.domain.paciente.Paciente;
 
 import java.time.LocalDateTime;
-import java.util.Optional;
 
 @Table(name = "consultas")
 @Entity(name = "Consulta")

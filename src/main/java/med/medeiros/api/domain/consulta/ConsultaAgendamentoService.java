@@ -1,5 +1,7 @@
 package med.medeiros.api.domain.consulta;
 
+import med.medeiros.api.domain.consulta.dto.DadosAgendamento;
+import med.medeiros.api.domain.consulta.dto.DadosDetalheConsulta;
 import med.medeiros.api.domain.consulta.validacoes.DadosCancelamentoConsulta;
 import med.medeiros.api.domain.consulta.validacoes.agendamento.ValidadorConsultaAgendamento;
 import med.medeiros.api.domain.consulta.validacoes.cancelamento.ValidadorCancelamentoDeConsulta;
@@ -15,11 +17,11 @@ import java.util.List;
 @Service
 public class ConsultaAgendamentoService {
     @Autowired
-    ConsultaRepository consultaRepository;
+    private ConsultaRepository consultaRepository;
     @Autowired
     private MedicoRepository medicoRepository;
     @Autowired
-    PacienteRepository pacienteRepository;
+    private PacienteRepository pacienteRepository;
     @Autowired
     private List<ValidadorConsultaAgendamento> validadores;
     @Autowired

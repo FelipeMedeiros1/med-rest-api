@@ -1,8 +1,8 @@
 package med.medeiros.api.controller;
 
 import jakarta.validation.Valid;
-import med.medeiros.api.domain.usuario.DadosAutenticacao;
-import med.medeiros.api.domain.usuario.Usuario;
+import med.medeiros.api.usuario.DadosAutenticacao;
+import med.medeiros.api.usuario.Usuario;
 import med.medeiros.api.infra.seguranca.DadosTokenJWT;
 import med.medeiros.api.infra.seguranca.TokenService;
 import org.springframework.beans.factory.annotation.Autowired;

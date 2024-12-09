@@ -3,6 +3,8 @@ package med.medeiros.api.controller;
 
 import med.medeiros.api.domain.endereco.DadosEndereco;
 import med.medeiros.api.domain.medico.*;
+import med.medeiros.api.domain.medico.dto.DadosCadastroMedico;
+import med.medeiros.api.domain.medico.dto.DadosDetalheMedico;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -17,9 +19,6 @@ import org.springframework.http.MediaType;
 import org.springframework.security.test.context.support.WithMockUser;
 import org.springframework.test.web.servlet.MockMvc;
 
-import java.time.LocalDateTime;
-
-import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
